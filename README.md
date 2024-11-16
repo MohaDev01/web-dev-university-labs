@@ -39,7 +39,7 @@ This repository contains web development projects from university laboratory ses
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/web-dev-university-labs.git
+git clone https://github.com/mohadev01/web-dev-university-labs.git
 ```
 
 2. Set up a local web server (e.g., XAMPP, WAMP) for PHP projects
