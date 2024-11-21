@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Event Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Flower Festival</h1>
+    </header>
+    <main>
+        <form>
+            <label for="fullName">Full Name:</label>
+            <input type="text" name="fullName" id="fullName" placeholder="Enter your full name" maxlength="50" autofocus required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" pattern="(){}" required>
+            <!--Enter the pattern for email-->
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" name="phoneNumber" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            
+            <label for="eventDate">Date:</label>
+            <input type="date" name="eventDate" id="eventDate" required>
+            
+            <label for="eventType">Type:</label>
+            <select name="eventType" id="eventType" required>
+                <option value="Workshop">Workshop</option>
+                <option value="Seminar">Seminar</option>
+                <option value="Networking">Networking</option>
+            </select>
+
+            <section>
+                <input type="radio" name="mealPreference" id="vegetarian" value="Vegetarian">
+                <label for="vegetarian">Vegetarian</label>
+                <input type="radio" name="mealPreference" id="vegan" value="Vegan">
+                <label for="vegan">Vegan</label>
+                <input type="radio" name="mealPreference" id="nonVegetarian" value="Non-Vegetarian">
+                <label for="nonVegetarian">Non-Vegetarian</label>
+            </section>
+
+            <label for="comments">Would like to add extra notes or requirements? Fill them below:</label>
+            <textarea name="comments" id="comments" cols="30" rows="10" maxlength="100"></textarea>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit now!">
+        </form>
+    </main>
+    <footer>&COPY; Made with &hearts; <a href="https://flowerfestivalform.netlify.app/" target="_blank" rel="noopener noreferrer">Flower Festival</a> All Rights Reserved.</footer>
+</body>
+</html>
