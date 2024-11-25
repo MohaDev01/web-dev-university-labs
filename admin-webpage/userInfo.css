@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #dddddd;
+    color: #191919;
+}
+
+/* HEADER */
+header {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    border-bottom: .1rem solid black;
+}
+header .logo {
+    width: 4rem;
+}
+header .userProfile {
+    width: 3rem;
+}
+
+/* MAIN */
+main {
+    display: flex;
+}
+nav {
+    background-color: black;
+    height: 80vh;
+    width: 20vw;
+    border: .1rem solid black;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    padding: 1rem;
+}
+nav li:hover {
+    background-color: #dddddd;
+}
+nav li:hover a {
+    color: #191919;
+}
+nav a {
+    color: #dddddd;
+    text-decoration: none;
+}
+section {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+section p {
+    font-weight: bold;
+}
+section table {
+    border: .1rem solid black;
+    background-color: #191919;
+}
+section td, th {
+    border: .1rem solid black;
+    padding: 1rem;
+    background-color: #dddddd;
+}
+/* FOOTER */
+footer {
+    padding: 4rem;
+    text-align: center;
+    border-top: .1rem solid black;
+}
+footer p {
+    font-weight: 600;
+}
