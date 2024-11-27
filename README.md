@@ -2,6 +2,16 @@
 
 This repository contains web development projects from university laboratory sessions, focusing on both client-side and server-side development. Each project demonstrates the fundamentals of web architecture and modern application development.
 
+## 🌐 Hosted Project Links
+| Lab   | Project                   | Live Link                               |
+|-------|---------------------------|-----------------------------------------|
+| Lab 01 | Basic Webpage          | [View Live](https://mohadev-uni-lab1.vercel.app/) |
+| Lab 02 | Personal Profile Page   | [View Live](https://mohadev-uni-lab2.vercel.app/)       |
+| Lab 03 | Travel Blog   | [View Live](https://mohadev-uni-lab3.vercel.app/)       |
+| Lab 04 | Event Registration Form   | [View Live](https://mohadev-uni-lab4.vercel.app/)       |
+| Lab 05 | Single-Page Portfolio Website   | [View Live](https://mohadev-uni-lab5.vercel.app/)       |
+| Lab 06 | Admin Webpage   | [View Live](https://mohadev-uni-lab6.vercel.app/)       |
+
 ## 🎯 Overview
 
 - Client-side development with HTML5, CSS3, and JavaScript
