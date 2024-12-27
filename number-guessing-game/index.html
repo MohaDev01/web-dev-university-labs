@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="/script.js"></script>
+  <div class="container">
+    <header>
+      <h1>Number Guessing Game</h1>
+    </header>
+
+    <section class="game">
+      <p class="prompt">Guess a number between 1 and 100</p>
+      <input type="number" name="guess" id="guess" min="1" max="100">
+      <button onclick="submitFunc()" type="submit">Submit Guess</button>
+      <p id="feedback">
+        <!--Feedback will be displayed here (Too High!, Too Low!)-->
+      </p>
+    </section>
+
+    <section class="attemptsTracker">
+      <p>Attempts: <span id="numOfAttempts">0</span></p>
+    </section>
+
+    <section class="leaderboard">
+      <table>
+        <thead id="tableHead">
+          <tr>
+            <th>Name</th>
+            <th>Attempts</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!--Name and Attempts of the user will be displayed here-->
+        </tbody>
+      </table>
+    </section>
+
+    <button onclick="resetFunc()" type="reset" id="reset">Reset Game</button>
+  </div>
+</body>
+</html>
