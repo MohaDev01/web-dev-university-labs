@@ -11,6 +11,7 @@ This repository contains web development projects from university laboratory ses
 | Lab 04 | Event Registration Form   | [View Live](https://mohadev-uni-lab4.vercel.app/)       |
 | Lab 05 | Single-Page Portfolio Website   | [View Live](https://mohadev-uni-lab5.vercel.app/)       |
 | Lab 06 | Admin Webpage   | [View Live](https://mohadev-uni-lab6.vercel.app/)       |
+| Lab 07 | Number Guessing Game   | [View Live](https://mohadev-uni-lab7.vercel.app/)       |
 
 ## 🎯 Overview
 
